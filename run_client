@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if ! which node > /dev/null; then
+    echo "Please install Node.js."
+    exit 1
+fi
+
+cd client
+npm i
+npm run build
+npx serve build/
