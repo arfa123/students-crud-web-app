@@ -5,7 +5,7 @@
 $ ./run_server
 ```
 
-## Run the front
+## Run the frontend
 ```bash
 $ ./run_client
 ```
